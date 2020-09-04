@@ -1,0 +1,13 @@
+{
+  "appId": "de.berkearas.apps",
+  "appName": "BadPerformanceReproduction",
+  "bundledWebRuntime": true,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "windowsAndroidStudioPath": "D:\\Programme\\Android Studio\\bin\\studio64.exe"
+}

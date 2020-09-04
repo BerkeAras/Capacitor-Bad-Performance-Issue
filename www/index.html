@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Bad Performance Reproduction</title>
+
+		<script type="module" src="node_modules/@ionic/core/dist/ionic/ionic.esm.js"></script>
+		<script nomodule src="node_modules/@ionic/core/dist/ionic/ionic.js"></script>
+		<link rel="stylesheet" href="node_modules/@ionic/core/css/ionic.bundle.css"/>
+
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		
+		<ion-app>
+
+			<ion-router>
+				<ion-route url="/" component="page-home"></ion-route>
+			</ion-router>
+
+			<ion-nav root="page-home"></ion-nav>
+
+		</ion-app>
+
+		<script src="pages/home.js"></script>
+	</body>
+</html>
